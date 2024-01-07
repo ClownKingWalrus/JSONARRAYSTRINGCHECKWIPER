@@ -1,7 +1,10 @@
 #include "Jsondeath.h"
+#include "Jsondeathkvpairs.h"
 
 int main()
 {
-    JsonDestroyer();
+    cout << "MAIN" << endl;
+    RunPairMaker();
+    // JsonDestroyer();
     return 0;
 }

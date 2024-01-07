@@ -1,8 +1,21 @@
 {
-    "MINECRAFT": [
-        "minecraft:STARTSTARTSTART",
-        "minecraft:some_other_item_name",
-        "minecraft:another_item",
-        "minecraft:ENDENDEND"
-    ]
+    "itemalchemy:alchemical_fuel": 512,
+    "itemalchemy:emc_collector_mk3": 114697,
+    "itemalchemy:mobius_fuel": 2048,
+    "itemalchemy:dark_matter": 139264,
+    "itemalchemy:alchemy_pad": 10248,
+    "itemalchemy:advanced_aegu": 7430464,
+    "itemalchemy:red_matter": 466944,
+    "itemalchemy:ultimate_aegu": 59453696,
+    "itemalchemy:aegu": 927560,
+    "itemalchemy:aeternalis_fuel": 8192,
+    "itemalchemy:alchemy_table": 10244,
+    "minecraft:yellow_wool": 48,
+    "minecraft:cod_bucket": 832,
+    "minecraft:name_tag": 192,
+    "minecraft:hanging_roots": 4,
+    "minecraft:golden_horse_armor": 2048,
+    "minecraft:dead_tube_coral": 1,
+    "minecraft:warped_slab": 8,
+    "minecraft:brown_concrete_powder": 4
 }
