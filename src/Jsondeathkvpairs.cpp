@@ -3,18 +3,23 @@ string stringtestinggod = "minecraft";
 string filePath = "PutJsonHere/Death.json"; // RENAME IF FILE IS DIFFERENT NAME
 ifstream f(filePath);
 json datajson = json::parse(f);
-vector<pair<string, json>> minecraft;
+vector<pair<string, int>> minecraft;
 
-void Pairmaker(const json &jsonData, vector<pair<string, json>> &minecraftItems)
+void Pairmaker(const json &jsonData, vector<pair<string, int>> &minecraftItems)
 {
     for (auto &pair : jsonData.items())
     {
         const string &key = pair.key();
-        auto &value = pair.value();
+        int value = pair.value();
         string teststring = StringGetter(key, stringtestinggod);
         int result = stringtestinggod.compare(teststring);
         if (result == 0)
         {
+            minecraftItems.push_back(make_pair(key, value));
+        }
+        else
+        {
+            value = 0;
             minecraftItems.push_back(make_pair(key, value));
         }
     }

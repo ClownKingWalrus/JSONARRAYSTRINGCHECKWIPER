@@ -2,6 +2,6 @@
 #define JSONDEATHKVPAIRS_H
 
 #include "Jsondeath.h"
-void Pairmaker(const json &jsonData, vector<pair<string, json>> &minecraftItems);
+void Pairmaker(const json &jsonData, vector<pair<string, int>> &minecraftItems);
 void RunPairMaker();
 #endif
